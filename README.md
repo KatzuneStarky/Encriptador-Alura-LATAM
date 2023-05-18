@@ -2,7 +2,9 @@
 # Encriptador Alura LATAM
 
 Este proyecto fue realizado para el curso de Alura Latam en conjunto con Oracle One
-![App Screenshot](https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1671210503Prancheta_3.png?utm_campaign=alura_latam_-_challenge_email_projeto_1_esp&utm_medium=email&utm_source=RD+Station)
+
+# Insignia dada al finalizar el proyecto
+![App Screenshot](https://i.ibb.co/cJMt9Yc/cms-files-10224-1671210503-Prancheta-3.png)
 
 ## Capturas del codigo
 
