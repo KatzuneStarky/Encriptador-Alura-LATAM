@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+        <title>Encriptador Alura LATAM</title>
+
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="contaier">
+            <div class="areaEncriptador">
+                <div class="area">
+                    <textarea
+                    name="texto"
+                    id="textoEncriptado"
+                    cols="30"
+                    rows="10"
+                    placeholder="Ingresa tu texto aqui..."
+                    oninput="soloMinusculas()"
+                ></textarea>
+                </div>
+
+                <div class="botones">
+                    <p>Solo letras minusculas y sin acentos</p>
+                    <div class="btn">
+                        <button onclick="encriptarVocales()">Encriptar</button>
+                        <button onclick="desencriptarVocales()">Desencriptar</button>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="encriptacion">
+                <div class="row">
+                    <div class="tablas">
+                        <div class="containerTablaEn">
+                            <h4>Palabras encriptadas</h4>
+                            <table id="tablaEncriptada"></table>
+                        </div>
+                        <div class="containerTablaDes">
+                            <h4>Palabras Desencriptadas</h4>
+                            <table id="tablaDesencriptada"></table>
+                        </div>                
+                    </div>
+                    <div class="buscando">
+                        <img src="img/search.png" alt="" id="imagen">
+                        <h2 id="titulo">Aun no se encuentra un mensaje</h2>
+                        <p id="txt">Ingresa el texto que deseas encriptar o desencriptar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
